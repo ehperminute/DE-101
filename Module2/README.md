@@ -3,9 +3,17 @@
 Устанавливаем PostgreSQL, DBeaver, подключаемся к базе Postgres.
 Создаём таблицы, загружаем данные с помощью sql запросов [orders](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1/orders.sql), [people](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1/people.sql), [returns](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1/returns.sql).
 Копируем, вставляем в DBeaver, выполняем.  
+![(https://github.com/ehperminute/DE-101/blob/main/Module2/returns_error.jpg)](https://github.com/ehperminute/DE-101/blob/main/Module2/images/orders_dbeaver.jpg)
 С табличкой returns получаем ошибку: 
   
-![alt text](https://github.com/ehperminute/DE-101/blob/main/Module2/returns_error.jpg)
+![](https://github.com/ehperminute/DE-101/blob/main/Module2/images/returns_error.jpg)
+
+Меняем местами имена столбцов в скрипте создания таблицы:
+  
+  ![](https://github.com/ehperminute/DE-101/blob/main/Module2/images/returns_edit.jpg)
+
+Ошибка, значения столбца Region неуникальны:
+![]
 1. Overview (обзор ключевых метрик)
 - Total Sales
 - Total Profit
