@@ -5,7 +5,7 @@
 Копируем, вставляем в DBeaver, выполняем.  
 С табличкой returns получаем ошибку: 
   
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/ehperminute/DE-101/blob/main/Module2/returns_error.jpg)
 1. Overview (обзор ключевых метрик)
 - Total Sales
 - Total Profit
