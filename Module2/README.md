@@ -16,7 +16,7 @@
 
 Убираем ограничение первичного ключа, заполняем таблицу:
   
-![](https://github.com/ehperminute/DE-101/blob/main/Module2/images/returns_non_key.jpg)
+![](https://github.com/ehperminute/DE-101/blob/main/Module2/images/returns_non_key1.jpg)
   
 Удаляем дубликаты, возвращаем ограничение первичного ключа, заодно переименуем столбцы:
   
