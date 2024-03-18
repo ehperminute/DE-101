@@ -1,5 +1,5 @@
 ## DataLearn [Модуль 2](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/readme.md)
-### PostgreSQL, DBeaver
+### 1. PostgreSQL, DBeaver
 Устанавливаем PostgreSQL, DBeaver, подключаемся к базе Postgres.
 Создаём таблицы, загружаем данные с помощью sql запросов [orders](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1/orders.sql), [people](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1/people.sql), [returns](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1/returns.sql).
 Копируем, вставляем в DBeaver, выполняем.  
@@ -23,6 +23,7 @@
 ![](https://github.com/ehperminute/DE-101/blob/main/Module2/images/returns_noduplicates_PK.jpg)
 
 Вроде сработало
+### 2. Запросы к таблицам Superstore
 1. Overview (обзор ключевых метрик)
 - Total Sales
 - Total Profit
@@ -131,4 +132,5 @@ FROM
 GROUP BY
 	region;
 ```
-
+ 
+### 3. Модели данных.
