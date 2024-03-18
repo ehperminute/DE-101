@@ -2,9 +2,10 @@
 ### PostgreSQL, DBeaver
 Устанавливаем PostgreSQL, DBeaver, подключаемся к базе Postgres.
 Создаём таблицы, загружаем данные с помощью sql запросов [orders](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1/orders.sql), [people](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1/people.sql), [returns](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1/returns.sql).
-Копируем, вставляем в DBeaver, выполняем.
-С табличкой returns получаем ошибку:
-
+Копируем, вставляем в DBeaver, выполняем.  
+С табличкой returns получаем ошибку: 
+  
+![alt text](http://url/to/img.png)
 1. Overview (обзор ключевых метрик)
 - Total Sales
 - Total Profit
